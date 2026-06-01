@@ -1,0 +1,184 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+body{
+background:#d9d6c2;
+color:#3b1f12;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+.hero{
+text-align:center;
+padding:30px;
+}
+
+.hero h4{
+color:#c73463;
+letter-spacing:2px;
+font-size:14px;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:900;
+color:#d1195f;
+margin-bottom:20px;
+}
+
+.hero img{
+width:80%;
+margin:auto;
+}
+
+.hero p{
+margin-top:12px;
+font-size:14px;
+text-transform:uppercase;
+}
+
+.travel-section{
+display:grid;
+grid-template-columns:1fr 1fr;
+background:#90e8ff;
+}
+
+.text-box{
+padding:50px;
+}
+
+.text-box h2{
+font-size:48px;
+color:#2646c5;
+}
+
+.collection-section{
+display:grid;
+grid-template-columns:1fr 1fr;
+background:#6a2d17;
+color:white;
+padding:40px;
+gap:20px;
+}
+
+.collection-text h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.story-section{
+display:grid;
+grid-template-columns:1fr 1fr;
+background:#314a14;
+color:white;
+}
+
+.story-text{
+padding:50px;
+}
+
+.story-text h2{
+font-size:56px;
+color:#d6e56b;
+margin-bottom:20px;
+}
+
+.what-we-have{
+padding:70px 30px;
+text-align:center;
+}
+
+.what-we-have h2{
+font-size:56px;
+margin-bottom:40px;
+color:#6a2d17;
+}
+
+.cards{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+width:300px;
+}
+
+.card h3{
+margin-top:15px;
+color:#b85d1f;
+}
+
+.contact{
+padding:60px 30px;
+}
+
+.contact h2{
+font-size:60px;
+margin-bottom:30px;
+color:#6a2d17;
+}
+
+form{
+background:#cba776;
+padding:30px;
+border-radius:8px;
+}
+
+input,
+textarea{
+width:100%;
+padding:14px;
+margin-bottom:15px;
+border:1px solid #9b7a52;
+}
+
+textarea{
+height:140px;
+resize:none;
+}
+
+button{
+width:100%;
+padding:14px;
+background:#7de8ff;
+border:none;
+font-size:16px;
+cursor:pointer;
+border-radius:6px;
+}
+
+footer{
+background:#742b12;
+color:#e4d75f;
+text-align:center;
+padding:30px;
+font-weight:bold;
+}
+
+@media(max-width:768px){
+
+.travel-section,
+.collection-section,
+.story-section{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.what-we-have h2,
+.contact h2{
+font-size:36px;
+}
+
+}
