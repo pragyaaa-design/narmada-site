@@ -194,3 +194,28 @@ font-size:36px;
 }
 
 }
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:35px;
+    padding:20px;
+    background-color:#f4efe4;
+    border-bottom:1px solid #d8cdb8;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav a{
+    text-decoration:none;
+    color:#4a3426;
+    font-family:'KleinCondensed', sans-serif;
+    font-size:1.2rem;
+    letter-spacing:1px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#9c6b3d;
+}
