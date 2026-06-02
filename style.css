@@ -2,12 +2,13 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: Arial, sans-serif;
+font-family: Georgia, serif;
 }
 
 body{
 background:#d9d6c2;
 color:#3b1f12;
+font-family: Georgia, serif;
 }
 
 img{
@@ -175,7 +176,10 @@ grid-template-columns:1fr;
 .hero h1{
 font-size:38px;
 }
-
+  
+h1,h2,h3{
+    font-family:'KleinCondensed';
+}
 .what-we-have h2,
 .contact h2{
 font-size:36px;
